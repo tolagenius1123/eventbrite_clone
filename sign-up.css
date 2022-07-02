@@ -1,0 +1,170 @@
+* {
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.sign-up-page-container {
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.sign-up-top-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up-top-box-left {
+    padding: 2%;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-top-box-right {
+    width: 50%;
+    background-color: goldenrod;
+}
+
+.sign-up-box-left {
+    width: 100%;
+}
+
+.top-box-left h1 {
+    color: white;
+    font-size: 40px;
+}
+
+/* .sign-up-input-container{
+    width: 50%;
+} */
+
+.top-box-left {
+    width: 60%;
+}
+
+.sign-up-input-container label {
+    color: white;
+    font-size: 12px;
+}
+
+.sign-up-input {
+    border: 2px solid rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: white;
+    width: 100%;
+}
+
+.sign-up-input label {
+    color: black;
+    margin: 5px 10px;
+    font-size: 13px;
+}
+
+.sign-up-input input {
+    border: unset;
+    height: 23px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.sign-up-input input:focus-visible {
+    outline: none;
+}
+
+.sign-up-input:focus-within {
+    border: 2px solid goldenrod;
+}
+
+.sign-up-input:focus-within>label {
+    color: goldenrod;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.sign-up-input-container button {
+    background-color: goldenrod;
+    color: black;
+    height: 50px;
+    padding: 5px 10px;
+    border: unset;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.horizontal-line-container {
+    margin-top: 15%;
+    position: relative;
+    height: 30px;
+}
+
+.horizontal-line-container hr {
+    color: white;
+}
+
+.horizontal-line-container div {
+    background-color: white;
+    position: absolute;
+    color: black;
+    border-radius: 100px;
+    padding: 0 12px 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block;
+    left: 45%;
+    bottom: 18px;
+}
+
+.modified-button {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.modified-button .icon {
+    position: absolute;
+    left: 40px;
+    top: 9px;
+}
+
+.modified-button button {
+    border: 1px solid gray;
+    height: 45px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.modified-button .icon {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    height: 15px;
+    width: 15px;
+}
+
+.modified-button .icon2 {
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    height: 15px;
+    width: 15px;
+}
+
+.sign-up-top-box-right {
+    background-image: url(images/realestate.jpg);
+    background-size: cover;
+    background-position: center;
+
+}

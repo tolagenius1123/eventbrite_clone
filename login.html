@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+    <!-- <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alice&family=Lato&family=Roboto&display=swap"
+      rel="stylesheet"
+    /> -->
+</head>
+<body>
+
+    <!--LOGIN PAGE CONTAINER-->
+    <div class="login-page-container">
+
+        <!--LOGIN CONTAINER-->
+        <div class="login-top-box">
+
+            <div class="login-top-box-left">
+               
+                 <div class="top-box-left">
+                    <img src="logo alt.svg" alt="Semicolon">
+                    <h1>Log In</h1>
+
+                     <div class="login-input-container">
+
+                        <div class="login-input">
+                             <label for="email">Email address</label>
+                             <input id="email" type="email" required name="email">
+                        </div>
+                       
+                        <div class="login-input">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required name="password">
+                        </div>
+
+                        <button onclick="clickHandler()">Log in</button>
+                     </div>
+
+                    <div class="horizontal-line-container">
+                        <hr>
+                        <div>or</div>
+                    </div>
+
+                    <div class="alternate-options">
+                        <div class="modified-button">
+                            <img src="images/heart.svg" class="icon" alt="">
+                            <button>Email me a login link</button>
+                            <img src="images/heart.svg" class="icon2" alt="">
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+
+            <div class="login-top-box-right">
+            </div>
+
+
+        </div>
+        <!--LOGIN CONTAINER-->
+
+
+        <footer>
+
+
+        </footer>
+
+
+
+    </div>
+    <!--LOGIN PAGE CONTAINER-->
+    <!-- <script>
+        function register(){
+            let email = document.getElementById('email').value
+            console.log(email);
+
+            let password = document.getElementById('password').value
+            console.log(password);
+        }
+
+        register();
+    </script> -->
+    <script src="/login.js"></script>
+</body>
+</html>
